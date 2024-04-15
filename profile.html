@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Profile Card</title>
+  <style>
+    .profile-card {
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .profile-card img {
+      width: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    
+    .profile-card h2 {
+      color: #333;
+    }
+    
+    .profile-card p {
+      margin-bottom: 5px;
+      color: #666;
+    }
+    
+    .profile-card a {
+      text-decoration: none;
+      color: #3366cc;
+    }
+    
+    .purchase-history {
+      text-align: left;
+      margin-top: 20px;
+      list-style: none;
+      padding: 0;
+    }
+    
+    .purchase-history li {
+      margin-bottom: 10px;
+      background-color: #f2f2f2;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    
+    .purchase-history li:last-child {
+      margin-bottom: 0;
+    }
+    
+    .product-name {
+      color: #3366cc;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    .purchase-date {
+      color: #ff3333;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-card">
+    <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t39.30808-6/352748343_921180772282093_650164791899831753_n.jpg?stp=dst-jpg_s851x315&_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGsEAkbjRL0RJ8zcArW0UkP2fztYBapKQzZ_O1gFqkpDIbVYILfYQ4O1xNsxwMan5dj-YFF9ywSh1iPJVkUNYXP&_nc_ohc=8YANFfyAW28Ab5HLPzm&_nc_ht=scontent.fhan14-3.fna&oh=00_AfA1oTqRmEFCnMhIP3wTDeFK20WvqlNtRf7a8pRaUCp-dQ&oe=6615E016" alt="Avatar">
+    <h2>Nguyễn Đức Mạnh</h2>
+    
+    <p>john.doe@example.com</p>
+    <a href="https://example.com">Visit Website</a>
+    
+    <ul class="purchase-history">
+      <li>
+        <span class="product-name">Product A</span> - $19.99<br>
+        <span class="purchase-date">Purchased on: 2024-03-15</span>
+      </li>
+      <li>
+        <span class="product-name">Product B</span> - $29.99<br>
+        <span class="purchase-date">Purchased on: 2024-03-10</span>
+      </li>
+      <li>
+        <span class="product-name">Product C</span> - $14.99<br>
+        <span class="purchase-date">Purchased on: 2024-03-05</span>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>
