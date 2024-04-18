@@ -283,69 +283,13 @@ h5.modal-title {
 }
 
 /* footer */
-.footer-item {
-  padding: .5rem 2rem;
-  background: #f1df11;
-  display: flex;
-
-}
-
-.footer-item .img-footer {
-  align-items: center;
-  display: flex;
-}
-
-.footer-item .img-footer img {
-  width: 100%;
-}
-
-.footer-item .social-footer {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  justify-content: flex-end;
-}
-
-.footer-item .social-footer li a {
-  color: #000000;
-  font-size: 2rem;
-}
-
-.footer-item .social-footer li:last-child {
-  margin-left: .5rem;
-}
-
-/* footer */
-.footer-item {
-  padding: .5rem 2rem;
-  background: #f1df11;
-  display: flex;
-
-}
-
-.footer-item .img-footer {
-  align-items: center;
-  display: flex;
-}
-
-.footer-item .img-footer img {
-  width: 100%;
-}
-
-.footer-item .social-footer {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  justify-content: flex-end;
-}
-
-.footer-item .social-footer li a {
-  color: #000000;
-  font-size: 2rem;
-}
-
-.footer-item .social-footer li:last-child {
-  margin-left: .5rem;
+footer {
+  display: block;
+  background-color: yellow;
+  padding: 20px;
+  text-align: left;
+  color: black;
+  font-size: 14px;
 }
 
 /* cart */
