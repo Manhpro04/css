@@ -330,6 +330,7 @@ h5.modal-title {
 
 .products ul {
   display: inline-block;
+  width: 100%;
 }
 
 .products ul .main-product {
@@ -388,6 +389,34 @@ h5.modal-title {
 
 .content-product .content-product-deltals .btn-cart:hover {
   background: #FF416C;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: 1px solid #FF4B2B;
+  background-color: #FFFFFF;
+  color: #FF4B2B;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.pagination button.active {
+  background-color: #FF4B2B;
+  color: #FFFFFF;
+}
+
+.pagination button:hover {
+  background-color: #FF416C;
+  color: #FFFFFF;
 }
 
 /* Footer */
